@@ -1,36 +1,23 @@
 from datetime import datetime
-from collections import OrderedDict
-from math import ceil, factorial
-from sympy import factorint
-from random import sample, randint
-from itertools import combinations, permutations
-import itertools
-from collections import defaultdict
-import operator as op
-from functools import reduce
-import sympy as sym
-import math
-from modular import multiplicativeInverse
-import random
+from sympy import *
+from sympy.ntheory import factorint
+from math import factorial, pi
+from numpy import sqrt
+import modular
+from collections import Counter
+
+initial = datetime.now()
+
+print(1943.20+1997.56+2330.49+377.10+747.24+2879.13+2536.52+2309.84)
+
+first = datetime.now() - initial
+print(first)
 
 
-first = datetime.now()
-
-print(random.randint(1, 2))
-
-'''
-1 - do
-2 - don't
-'''
 
 
-firstTime = datetime.now() - first
 
-second = datetime.now()
-secondTime = datetime.now() - second
 
-print()
-print(firstTime)
 
 
 
